@@ -23,6 +23,9 @@ Human Resources data : The primary source of dataset used in this analyisis is t
 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
 - Data Cleaning:
     Cleaning Date Columns:
-In our data analysis, we encountered a date column with inconsistent and inappropriate date formats. To ensure data consistency and accuracy, we wrote an SQL query to clean and standardize the date column, putting them in the appropriate format.
+In our data analysis, we encountered a date column with inconsistent and inappropriate date formats. To ensure data consistency and accuracy, we wrote an SQL query to clean and standardize the date column, putting them in the appropriate format. For the full Data cleaning, check the........
+- Data Manipulation: Wrote query to alter the table to derived a new Age column from existing colummns to prepare meaningful insight for the analysis.
+
+
 
 
