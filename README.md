@@ -17,10 +17,12 @@ Human Resources data : The primary source of dataset used in this analyisis is t
 - PowerBI - Creating report
 
 #### Approach Used
--Data Wrangling: This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
+- Data Wrangling: This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
 1. Build a database
 2. Create table and insert the data.
 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
-
+- Data Cleaning:
+    Cleaning Date Columns:
+In our data analysis, we encountered a date column with inconsistent and inappropriate date formats. To ensure data consistency and accuracy, we wrote an SQL query to clean and standardize the date column, putting them in the appropriate format.
 
 
