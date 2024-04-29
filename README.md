@@ -7,10 +7,20 @@ Moreover, the distribution of job titles across the company is analyzed, offerin
 Furthermore, the distribution of employees across different locations by state is examined, providing insights into geographical workforce distribution patterns. Additionally, the project tracks changes in the company's overall employee count over time based on hire and termination dates, offering a longitudinal perspective on workforce dynamics.
 Finally, the analysis explores the tenure distribution for each department, providing insights into employee retention and career progression within specific organizational units.
 Overall, this HR analysis project offers a holistic overview of the company's workforce landscape, providing actionable insights to inform strategic decision-making and optimize HR practices for improved organizational effectiveness and employee satisfaction.
+
 ### Data Source
 Human Resources data : The primary source of dataset used in this analyisis is the Data File file containing detailed information about the company. This dataset has 22000 rowa contains the following columns: id, first_name,	last_name,	birthdate,	gender,	race,	department,	jobtitle,	location,	hire_date, termdate,	location_city,	location_state.
 
 #### Tools Used
+- My SQL - Data cleaning and data analysis
+
+- PowerBI - Creating report
+
+#### Approach Used
+-Data Wrangling: This is the first step where inspection of data is done to make sure NULL values and missing values are detected and data replacement methods are used to replace, missing or NULL values.
+1. Build a database
+2. Create table and insert the data.
+3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
 
 
 
