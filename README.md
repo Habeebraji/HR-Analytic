@@ -41,7 +41,7 @@ In our data analysis, we encountered a date column with inconsistent and inappro
 
     #### Code:
     ```sql
-    create database Human_resources;
+create database Human_resources;
 show databases;
 use human_resources;
 create table hr (id  varchar (15) primary key NOT NULL, first_name TEXT NOT NULL, last_name TEXT NOT NULL, birthdate TEXT NOT NULL, gender TEXT NOT NULL,
@@ -77,8 +77,4 @@ update hr set termdate = null where termdate ='';
  
  -------- Gender breakdown in the company ---------
  select gender, count(*) as count from hr where termdate is null or termdate >curdate() and age >=18 
- group by gender;```
-
-
-
-
+ group by gender; ```
