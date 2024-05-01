@@ -41,6 +41,7 @@ In our data analysis, we encountered a date column with inconsistent and inappro
 
  
  #### Code
+ For the rest of the code, check the full sql queries here  [sql_script](https://github.com/Habeebraji/HR-Analytic/blob/main/HR-Queries.sql)
 ```
 create database Human_resources;
 show databases;
