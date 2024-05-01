@@ -40,7 +40,8 @@ In our data analysis, we encountered a date column with inconsistent and inappro
 11. What is the tenure distribution for each department?
 
     #### Code:
-    ``` create database Human_resources;
+    ```sql
+    create database Human_resources;
 show databases;
 use human_resources;
 create table hr (id  varchar (15) primary key NOT NULL, first_name TEXT NOT NULL, last_name TEXT NOT NULL, birthdate TEXT NOT NULL, gender TEXT NOT NULL,
