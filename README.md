@@ -77,9 +77,7 @@ update hr set termdate = null where termdate ='';
  
  -------- Gender breakdown in the company ---------
  select gender, count(*) as count from hr where termdate is null or termdate >curdate() and age >=18 
- group by gender;
- 
-```
+ group by gender;```
 
 
 
