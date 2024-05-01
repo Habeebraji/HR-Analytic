@@ -39,8 +39,9 @@ In our data analysis, we encountered a date column with inconsistent and inappro
 10. How has the company's employee count changed over time based on hire and term dates?
 11. What is the tenure distribution for each department?
 
-    #### Code:
-    ```sql
+ 
+ #### Code
+```
 create database Human_resources;
 show databases;
 use human_resources;
@@ -77,4 +78,21 @@ update hr set termdate = null where termdate ='';
  
  -------- Gender breakdown in the company ---------
  select gender, count(*) as count from hr where termdate is null or termdate >curdate() and age >=18 
- group by gender; ```
+ group by gender;```
+
+#### Results
+- There are more male employees
+- White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
+- 6 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64, 65+). A large number of employees were between 35-44  followed by 25-34 while the smallest group was 65+.
+- A large number of employees work at the headquarters versus remotely.
+- The average length of employment for terminated employees is around 10 years.
+- The gender distribution across departments is fairly balanced but there are generally more male than female employees.
+- The Auditing department has the highest turnover rate followed by  Lega. The least turn over rate are in the marketing, business development and services.
+- A large number of employees come from the state of Ohio.
+- The net change in employees has increased over the years.
+- The average tenure for each department is about 10 years with Engineering, sales and services having the highest, legal having the lowest.
+
+#### Limitation
+- Some entries with negative ages were omitted during the query process, totaling 967 records. Only ages of 18 years and older were considered.
+- Additionally, termination dates that were too distant in the future were excluded from the analysis, totaling 1599 records. Only termination dates equal to or earlier than the current date were included.
+- The average tenure for each department is about 10 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
