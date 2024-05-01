@@ -21,10 +21,10 @@ Human Resources data : The primary source of dataset used in this analyisis is t
 1. Build a database
 2. Create table and insert the data.
 3. Select columns with null values in them. There are no null values in our database as in creating the tables, we set NOT NULL for each field, hence null values are filtered out.
-- Data Cleaning:
-    Cleaning Date Columns:
-In our data analysis, we encountered a date column with inconsistent and inappropriate date formats. To ensure data consistency and accuracy, we wrote an SQL query to clean and standardize the date column, putting them in the appropriate format. For the full Data cleaning, check the........
-- Data Manipulation: Wrote query to alter the table to derived a new Age column from existing colummns to prepare meaningful insight for the analysis.
+- Data Cleaning: Data cleaning, also known as data cleansing, is the process of detecting and correcting errors, inconsistencies, and inaccuracies in a dataset
+In our data analysis, we encountered a date column with inconsistent and inappropriate date formats. To ensure data consistency and accuracy, we wrote an SQL query to clean and standardize the date column, putting them in the appropriate format. For the full Data cleaning, check the [sql_script](https://github.com/Habeebraji/HR-Analytic/blob/main/HR%20data%20cleaning.sql) file
+- Data Manipulation:Data manipulation refers to the process of altering, organizing, or transforming data to extract meaningful insights or prepare it for analysis.
+ Wrote query to alter the table to derived a new Age column from existing colummns to prepare meaningful insight for the analysis.
 
 #### Key Questions:
 1. What is the gender breakdown of employees in the company?
